@@ -1,0 +1,26 @@
+{
+  "name": "ts_toyapp",
+  "version": "1.0.0",
+  "description": "Making a toy project with ExpressJS and TypeScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "TypeScript",
+    "ExpressJS"
+  ],
+  "author": "Sebastian Pulido",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/express": "^4.0.34",
+    "@types/mocha": "^2.2.34",
+    "@types/twilio": "0.0.6",
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "mocha": "^3.2.0",
+    "twilio": "^2.11.1"
+  }
+}
