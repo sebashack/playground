@@ -1,10 +1,13 @@
 import * as express from 'express';
+import { endpoint1Handler } from './handlers';
 
 export const router1 = express.Router();
 
+
+//Router is decoupled from handler.
 router1.route('/endpoint1')
-       .get((req, res, next) => {
-           res.end(req.query.color);          
-       })
+       .get(endpoint1Handler);
+
        
        
+
